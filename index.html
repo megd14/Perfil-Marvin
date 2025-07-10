@@ -1,58 +1,98 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mi Sitio Personal</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
 </head>
 <body>
-  <header>
-    <h1>Hola, soy Marvin Gamoneda</h1>
-    <img src="img/Rayo McQueen.png" alt="Foto de Marvin jaja" class="img">
-  </header>
+<header>
+    <h1>Marvin's Product</h1>
+    <img src="img/cremas.png">
+</header>
+<nav>
+<a href="#Sobre">Sobre</a>
+<a href="#Beneficios">Beneficios</a>
+<a href="#Comentarios">Comentarios</a>
+<a href="#Contactanos">Contactanos</a>
+<a href="#Comprar">Comprar</a>
+</nav>
 
-  <section class="bio">
-    <h2>Sobre mí</h2>
-    <p>Naci en La Ceiba, pero estoy viviendo actualmente en Roatán, Islas de la Bahía<br>
-    Me gustan las cosas relacionadas a la tecnologia ya que creo que nuestro futuro sera <br>
-    mayormente de ello.</p>
-  </section>
+<section id="Sobre">
+<h2>Sobre Mi Producto</h2>
+<p>No es solo una crema, loción o body wash... ¡es una experiencia de suavidad, frescura y bienestar! <br>
+   Nuestros productos están hechos para dejarte una piel irresistiblemente suave, con aromas que enamoran <br>
+   y una sensación que dura todo el día.
 
-  <section class="pasatiempos">
-    <h2>Mis pasatiempos</h2>
-    <ul>
-      <li>Escuchar musica</li>
-      <li>Mirar videos</li>
-      <li>Jugar pelota</li>
-      <li>Ver series</li>
-    </ul>
-  </section>
+</p>
+</section>
 
-  <section class="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Jugar pelota</li>
-      <li>Conducir carro</li>
-      <li>Pescar</li>
-    </ul>
-  </section>
+<section id="Beneficios">
+<h2>Beneficios</h2>
+<ul id="lista">
 
-  <section class="contacto">
-    <h2>Contacto</h2>
-    <p>Correo: marvin@email.com</p>
-    <p>Instagram: @marvinsweb</p>
-    <p>Formulario (falso):</p>
-    <form>
-      <input type="text" placeholder="Tu nombre" required>
-      <input type="email" placeholder="Tu correo" required>
-      <textarea placeholder="Tu mensaje"></textarea>
-      <button type="submit">Enviar</button>
-    </form>
-  </section>
+    <li>Hidratan profundamente la piel</li>
+    <li>Suavizan y mejoran la textura</li>
+    <li>Aportan una fragancia duradera y agradable</li>
+    <li>Formulados con ingredientes nutritivos y seguros</li>
+    <li>Ayudan a prevenir la resequedad</li>
+    <li>Se absorben fácilmente sin dejar sensación grasosa</li>
+    <li>Ideales para uso diario</li>
+    <li>Refrescan y revitalizan la piel desde el primer uso</li>
+    <li>Aportan sensación de limpieza y bienestar</li>
+    <li>Aptos para todo tipo de piel</li>
+</ul>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Marvin Gamoneda papa </p>
-  </footer>
+<section id="Comentarios">
+<h2>Comentarios de Clientes</h2>
+<blockquote>
+"Desde que empecé a usar la crema y la loción, mi piel está mucho más suave e hidratada. <br>
+¡El aroma es increíble y dura todo el día!" -   Jahdor Brown
+</blockquote>
+<blockquote>
+"El body wash es una maravilla. Hace bastante espuma, deja la piel limpia y con una sensación <br>
+súper fresca. ¡Recomendado al 100%!" - Stephanie Cardona
+</blockquote>
+</section>
+
+<section id="Contactanos">
+    <h2>Contactanos</h2>
+<form action="#" method="post">
+    <label for="nombre">Nombre: </label><br>
+    <input type="text" id="nombre" name="nombre" required>
+    <br><br>
+    <label for="Correo">Correo Electronico: </label>
+    <br>
+    <input type="text" id="correo" name="correo" required>
+    <br><br>
+    <label for="mensaje">Escribenos un mensaje:</label>
+    <br>
+    <textarea id="mensaje" name="mensaje" rows="4" cols="40" placeholder="aqui..."></textarea>
+    <br><br>
+    <section id="submit">
+        <input type="submit" value="Enviar">
+    </section>
+    
+    
+</form>
+</section>
+
+<section id="Comprar">
+    <section id="Boton">
+    <button type="submit" class="Boton"> Comprar Ahora</button>
+    </section>
+</section>
+
+
+
+
+
+
+<footer>
+<h4>Derechos Reservados 2025</h4>
+<p>Siguenos en redes: @marvin's_product</p>
+</footer>
 </body>
 </html>

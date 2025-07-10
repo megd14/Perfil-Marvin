@@ -1,0 +1,117 @@
+
+header{
+    background-color: #2621ae;
+    text-align: center;
+    margin-top: 0;
+}
+
+header h1{
+    color: white;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+nav{
+background-color: #252525;
+padding: 20px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+a:hover{
+    
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+body{
+    background-color:#d0cece;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    height: 100px;
+    width: 150px;
+    padding-bottom: 20px;
+}
+
+section{
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin:  10px auto;
+    max-width: 800px;
+}
+
+#Beneficios ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#Beneficios li{
+    border-bottom: 1px solid #ddd;
+    padding: 5px 0;
+}
+
+#Comentarios blockquote{
+    background-color: #e0f0ff;
+    border-left: 4px solid #2621ae;
+    padding: 2px;
+    font-style: italic;
+}
+
+
+button{
+    color: rgb(255, 255, 255);
+    background-color: #f67632;
+    border-radius: 10px ;
+    padding: 20px;
+    margin: 0;
+    font-weight: bold;
+    border: none;
+}
+
+button:hover{
+    background-color: orange;
+    padding: 25px;
+    transition: 1s all;
+}
+
+input{
+    border: 2px solid #e5e5e5ee;
+}
+
+textarea{
+border: 2px solid #e5e5e5ee;
+}
+
+#submit{
+  margin-bottom: 0; 
+  padding: 0; 
+}
+#submit input{
+    background-color: #e5e5e5ee;
+    padding: 10px;
+    margin: 0;
+}
+
+footer{
+    background-color: #414040ee;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
